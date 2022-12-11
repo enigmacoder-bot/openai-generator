@@ -215,3 +215,15 @@ img {
   transform: scale(1.1);
 }
 
+@media only screen and (max-width: 500px) {
+  .showcase form input,
+form select {
+  font-size: 10px;
+  width: 300px;
+  
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+}
